@@ -9,6 +9,7 @@ int main(int argc, char* argv[])
 {
     if (argc != 2)
     {
+        cout << "Run with 'BXVM program.bin' to interpret the example program." << endl;
         return 0;
     }
 
